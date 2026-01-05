@@ -78,10 +78,17 @@ nav{
 }
 /*main*/
 main{
-    background-color:lightblue;
+    
     /*make main take up any surplus space for footer*/
     flex:1 0 auto;
     margin-top: 47px;
+}
+/*hero section*/
+#hero{
+ height: 90vh;
+ width:100%;
+ background:url("../images/hero-image.webp")no-repeat center center/cover;
+
 }
 /*footer*/
 
