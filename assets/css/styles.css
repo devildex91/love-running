@@ -85,7 +85,13 @@ main{
 }
 /*footer*/
 footer{
+    
     background-color:orange;
+}
+/*styles for the links in footer*/
+footer ul{
+    display:flex;
+    justify-content: space-evenly;
 }
 /* media queries: tablets and larger {768 px and up}*/
 @media screen and (min-width: 768px){
@@ -116,7 +122,7 @@ main{
 }
 }
 @media screen and (min-width:992px){
-    #menu > li:hover{
+    #menu  a:hover{
         border-bottom:1px solid #3a3a3a;
     }
 }
