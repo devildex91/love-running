@@ -84,14 +84,18 @@ main{
     margin-top: 47px;
 }
 /*footer*/
-footer{
-    
-    background-color:orange;
-}
-/*styles for the links in footer*/
-footer ul{
+
+#social-networks{
     display:flex;
     justify-content: space-evenly;
+    text-align:center;
+    padding: 20px 0;
+    list-style-type: none;
+}
+#social-networks i {
+ font-size:160%;
+ padding:5%;
+ color:#3a3a3a;
 }
 /* media queries: tablets and larger {768 px and up}*/
 @media screen and (min-width: 768px){
