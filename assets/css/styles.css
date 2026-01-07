@@ -122,7 +122,7 @@ main {
     padding: 0 20px;
 }
 #benefits hr {
-border-top:1px solid #3a3a3a;
+border-top: 1px solid #3a3a3a;
 margin:5px 0;
 }
 
@@ -194,12 +194,13 @@ margin:5px 0;
     flex-direction:column;
     width:100%;
   }
-  #benefits-mental {
-    align-self:flex-end ;
-  }
-  #benefits-image {
-    align-self: center;
-  }
+   #benefits-physical {
+    align-self: flex-start;
+   }
+   #benefits-mental {
+    align-self:flex-end;
+   }
+  
   #benefits-physical > div,
   #benefits-mental > div {
     width: 75%;
@@ -221,26 +222,25 @@ margin:5px 0;
     #benefits {
                 display: flex;
         flex-direction: row;
-        
-
     }
-    #benefits > div {
-        flex: 1;
-    }
-
-    #benefits-image {
-        order: 0
-    }
-
-    #benefits-mental {
-        order: 1;
-    }
-
-    #benefits-mental > div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical > div {
-        align-self: flex-end;
-    }
-}
+  #benefits > div {
+    flex: 1;
+  }
+  #benefits-image {
+    order:0
+  }
+  #benefits-mental {
+    order:1;
+  }
+  #benefits-physical {
+    order:-1;
+  }
+  
+  #benefits-mental > div {
+    align-self:flex-start;
+  }
+  #benefits-physical > div {
+    align-self: flex-end;
+  }
+  }
+    
