@@ -163,7 +163,14 @@ margin:5px 0;
 #times h3 {
   color:#fafafa;
 }
-
+/* gallery styles */
+#photos img {
+  width:100%;
+  line-height:1em;
+}
+#photos {
+  line-height:0;
+}
 /*footer*/
 
 #social-networks {
