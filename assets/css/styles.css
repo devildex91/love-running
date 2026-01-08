@@ -201,13 +201,7 @@ margin:5px 0;
     flex-direction:column;
     width:100%;
   }
-   #benefits-physical {
-    align-self: flex-start;
-   }
-   #benefits-mental {
-    align-self:flex-end;
-   }
-  
+ 
   #benefits-physical > div,
   #benefits-mental > div {
     width: 75%;
@@ -224,29 +218,18 @@ margin:5px 0;
 }
 @media screen and (min-width: 1200px){
     /*reasons section*/
-    
-    
     #benefits {
-                display: flex;
-        flex-direction: row;
+      display:flex;
+
     }
-  #benefits > div {
-    flex: 1;
-  }
-  #benefits-image {
-    order:0
-  }
-  #benefits-mental {
-    order:1;
-  }
-  #benefits-physical {
-    order:-1;
-  }
-  
-  #benefits-mental > div {
-    align-self:flex-start;
-  }
-  #benefits-physical > div {
-    align-self: flex-end;
-  }
-  }
+    
+    #benefits-physical{
+     order:0;
+    }
+    
+    #benefits-image{
+      order:1;
+    }
+  #benefits-mental{
+    order:2;
+  } }
