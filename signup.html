@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Love Running</title>
@@ -32,38 +31,121 @@
       sizes="16x16"
       href="assets/favicon/favicon-16x16.png"
     />
-    <link rel ="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <!--header-->
     <header>
-      <a href = "index.html">
-        <h1 id = "logo">Love Running</h1>
+      <a href="index.html">
+        <h1 id="logo">Love Running</h1>
       </a>
-      <input type = "checkbox" id = "nav-toggle" name = "nav-toggle">
-      <label for = "nav-toggle" class = "nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
       <nav>
-        <ul id = "menu">
-          <li><a href="index.html" >Home</a></li>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="signup.html" class = "active">Sign Up</a></li>
-      </ul>  
+          <li><a href="signup.html" class="active">Sign Up</a></li>
+        </ul>
       </nav>
     </header>
 
     <!--main content-->
-    <main>Main Content</main>
+    <main>
+      <section id="signup">
+        <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+          <h2>
+            <i class="fa-solid fa-heart-pulse"></i>Lets get you signed up!
+          </h2>
+          <div class="text-input">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" required><br />
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required><br />
+            <label for="email-address">Email Address</label>
+            <input type="email" name="email-address" id="email-address" required><br />
+          </div>
+          <div class="radio-buttons">
+            <label for="road">Road</label>
+            <input
+              type="radio"
+              name="running_preference"
+              id="road"
+              value="road"
+              required
+            /><br />
+            <label for="trail">Trail</label>
+            <input
+              type="radio"
+              name="running_preference"
+              id="trail"
+              value="trail"
+              required
+            /><br />
+            <label for="both">Both</label>
+            <input
+              type="radio"
+              name="running_preference"
+              id="both"
+              value="both"
+              required
+            />
+            <br />
+          </div>
+          
+          <input type="submit" value ="Submit" class="join-button">
+          
+        </form>
+      </section>
+    </main>
 
     <!--footer-->
     <footer>
-      <ul id = "social-networks">
-        <li><a href = "https://www.facebook.com/" target="_blank" rel="noopener" aria-label="visit our facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href = "https://www.twitter.com/" target = "_blank" rel = "noopener" aria-label="visit our twitter page(opens in a new window)"><i class="fa-brands fa-twitter"></i></a></li>
-        <li><a href = "https://www.youtube.com/" target = "_blank" rel = "noopener" aria-label="visit our youtube page(opens in a new window)"><i class="fa-brands fa-youtube"></i></a></li>
-        <li><a href = "https://www.instagram.com/" target = "_blank" rel = "noopener" aria-label="visit our instagram page(opens in a new window)"><i class="fa-brands fa-instagram"></i></a></li>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our facebook page(opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our twitter page(opens in a new window)"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our youtube page(opens in a new window)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our instagram page(opens in a new window)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
       </ul>
-      </footer>
-      <!--javascript for font awesome icons-->
-    <script src="https://kit.fontawesome.com/cbfde23805.js" crossorigin="anonymous"></script>
+    </footer>
+    <!--javascript for font awesome icons-->
+    <script
+      src="https://kit.fontawesome.com/cbfde23805.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -171,6 +171,72 @@ margin:5px 0;
 #photos {
   line-height:0;
 }
+/* signup section */
+main {
+  margin-top:47px;
+display:flex;
+  flex-direction: column;
+  flex:1 0 auto;
+ }
+#signup {
+  background-image:url("../images/signup-image.webp");
+  background-size:cover;
+  background-position:75%;
+  flex-grow:1;
+  padding:20px 10% 0 10%;
+  flex-grow:1;
+}
+
+#signup-form {
+  color:#fafafa;
+  background-color: rgba(60,60,60, 0.6);
+  padding:30px;
+  
+
+}
+#signup-form h2 {
+  margin-bottom:20px;
+}
+.text-input input{
+  width:100%;
+  height:25px;
+  margin:0 5px;
+  background-color: rgba(60,60,60, 0.6);
+  border-radius: 2px;
+  border:2px solid #fafafa;
+
+}
+#first-name{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.radio-buttons {
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+ .join-button {
+  padding:15px 32px;
+  font-size:100%;
+  border-radius:2px;
+  background-color:#454b1b;
+  color:#fafafa;
+  margin-top: 20px;;
+ }
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+
 /*footer*/
 
 #social-networks {
