@@ -326,7 +326,7 @@ display:flex;
     background-color: #454b1b;
     color:#454b1b;
   }
-.text-input:hover{
+.text-input input:hover{
   border-color: #f16c6b;
 }
 
