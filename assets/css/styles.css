@@ -183,14 +183,17 @@ display:flex;
   background-size:cover;
   background-position:75%;
   flex-grow:1;
-  padding:20px 10% 0 10%;
-  flex-grow:1;
+  padding: 20px 10% 0 10%;
+  
 }
 
 #signup-form {
   color:#fafafa;
   background-color: rgba(60,60,60, 0.6);
   padding:30px;
+  
+  
+  
   
 
 }
@@ -309,6 +312,23 @@ display:flex;
   #photos {
     column-count: 3;
   }
+  /* signup section */
+  #signup-form {
+    position:absolute;
+    margin-left:10%;
+    margin-top:150px;
+    max-width:400px;
+  }
+  #signup {
+    background-position:60%; 
+  }
+  .join-button:hover {
+    background-color: #454b1b;
+    color:#454b1b;
+  }
+.text-input:hover{
+  border-color: #f16c6b;
+}
 
  
   }
